@@ -3,7 +3,7 @@ $outDir = "$baseDir\out"
 $msbuildExe = "C:\Program Files (x86)\MSBuild\12.0\bin\MsBuild.exe"
 $nugetExe = "$baseDir\.nuget\NuGet.exe"
 
-$configsToBuild = {"Release", "MonoRelease"}
+$configsToBuild = {"Debug", "Release", "MonoRelease"}
 
 if ($env:APPVEYOR) {
   $testExe = "xunit.console.clr4"
