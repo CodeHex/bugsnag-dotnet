@@ -1,7 +1,7 @@
 Building Bugsnag
 ----------------
 
-Bugsnag can be built either using AppVeyor.
+Bugsnag can be built either using AppVeyor or manually running MakeRelease.ps1 located in the root folder.
 
 Build using AppVeyor
 --------------------
